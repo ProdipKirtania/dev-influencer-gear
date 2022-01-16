@@ -192,4 +192,73 @@ section{
       height: 25px;
   }
 
-
+/* Popular collection section style */
+#popular-collection{
+    padding: 30px 100px;
+    font-family: 'Poppins';
+}
+.popular-collection-title{
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.popular-collection-items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    grid-gap: 30px;
+    border-radius: 10px; 
+    
+}
+.popular-collection-image{
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0px 0px 10px   #AAAAAA;
+}
+.popular-collection-image img{
+    width: 100%;
+    object-fit: cover;
+}
+.popular-collection-image h3{
+    font-weight: 500;
+    font-size: 28px;
+    text-transform: capitalize;
+    color: #3A3A3A;
+    ;
+    padding: 10px 0px; 
+}
+.popular-collection-image h4{
+    font-weight: 400;
+    font-size: 18px;
+    color: #3A3A3A;
+    padding-bottom: 14px;
+}
+.popular-collection-image p{
+    color: #434141;
+    font-size: 14px;
+    font-weight: 600;
+    padding-top: 5px;
+}
+.rating li{
+  display: inline-block;
+}
+.rating li .fa-star{
+ color:  #F47F11;
+}
+.rating-number{
+    color: #3A3A3A;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 0 5px;
+}
+.see-more{
+    text-align: right;
+    padding: 30px 0;
+}
+.see-more a{
+    color: #F47F11;
+     font-weight: 600;
+     font-size: 16px;
+}
+/*------------|---collection part end--|---------------*/
