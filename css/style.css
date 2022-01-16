@@ -34,7 +34,7 @@ section{
 .container {
   max-width: 1200px;
   margin: 0px auto;
-  padding: 30px;
+  padding: 10px 30px;
 }
 
 /*----header section style -----*/
@@ -261,4 +261,76 @@ section{
      font-weight: 600;
      font-size: 16px;
 }
-/*------------|---collection part end--|---------------*/
+
+
+/* featured product style */
+#featured-product{
+    padding-top: 30px 0;
+    font-family: Poppins;
+}
+.featured-product-title {
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: capitalize;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.featured-influencers{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    grid-column-gap: 30px;
+    grid-row-gap: 20px;
+    border-radius: 10px; 
+    color: #3A3A3A;
+}
+.influnencer{
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px   #AAAAAA;
+}
+.influnencer img{
+    display: flex;
+    justify-content: center;
+    /* width: 50%; */
+}
+
+.feature-items-left h2 {
+    font-weight: 600;
+    font-size: 24px;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+}
+.feature-items-left p {
+    font-weight: 600;
+    font-size: 14px;
+    color: #3A3A3A;
+    width: 500px;
+    padding-bottom: 16px;
+    text-align: justify;
+    line-height: 30px;
+}
+.feature-items-left a{
+    padding: 10px 24px;
+    background-color: #F47F11;
+    border-radius: 30px;
+     font-weight: 700;
+     font-size: 16px;
+     color: #fff;
+     position: relative;
+     top: 0px;
+     transition: linear .4s;
+ }
+
+.feature-items-left a:hover{
+    color: #F47F11;
+    background-color: #fff;
+    border: #F47F11 1px solid;
+}
+.feature-items{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+}
+
+
