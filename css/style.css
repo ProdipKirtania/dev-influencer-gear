@@ -58,24 +58,28 @@ section{
     align-items: flex-end;
     flex-wrap: wrap;
     height: 50px;
+    
 }
 .logo img{
     display: inline-block;
     height: 50px;
 }
 .logo h3{
-    color: #192341;
+    color: #F47F11;
     font-family: Poppins;
     font-size: 24px;
     font-weight: 600;
     text-transform: capitalize;
+}
+.logo h3 span{
+    color: #3A3A3A;
 }
 .nav-text ul{
    display: flex;
     margin-left: 34px;
 }
 .nav-text ul li a {
-    color: #000;
+    color: #3A3A3A;
     font-family: Poppins;
     font-size: 18px;
     margin: 5px 15px;
@@ -102,14 +106,15 @@ section{
     column-gap: 250px;
 }
 .banner-left h3 {
+    color: #3A3A3A;
     font-family: Poppins;
     font-weight: 700;
     font-size: 50px;
 }
 .banner-left p {
     font-family: Poppins;
-    font-weight: 600;
-    font-size: 16px;
+    font-weight: 400;
+    font-size: 14px;
     color: #3A3A3A;
     width: 500px;
     padding-bottom: 16px;
@@ -153,5 +158,14 @@ section{
 .fa-arrow-right{
     padding-left: 8px;
     vertical-align: middle;
+}
+
+.img-back-circle{
+    position: absolute;
+    margin-left: 750px;
+}
+.banner-right{
+    position: relative;
+    z-index: 1;
 }
 /*------------|---banner part end--|---------------*/
